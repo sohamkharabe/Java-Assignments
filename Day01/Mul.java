@@ -1,3 +1,4 @@
+package Day01;
 import java.util.Scanner;
 public class Mul {
   public static void main(String[] args) {
@@ -10,6 +11,7 @@ public class Mul {
       System.out.println(a+" * "+i+" = "+mul);
       i++;
     }
+    Input.close();
     
   }
   

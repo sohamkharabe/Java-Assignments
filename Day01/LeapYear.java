@@ -1,5 +1,4 @@
-// Question: Write aJava program to check if a given year is a leap year or not. A leap year is defined as follows:
-
+package Day01;
 import java.util.Scanner;
 public class LeapYear{
   public static void main(String[] args) {
@@ -15,5 +14,6 @@ public class LeapYear{
     } else {
       System.out.println(year + " is not a leap year.");
     }
+    input.close();
   }
 }
